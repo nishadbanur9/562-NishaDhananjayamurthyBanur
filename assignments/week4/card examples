@@ -1,0 +1,90 @@
+CARD EXAMPLES:
+
+1. straight
+
+var hand = [
+        { rank:'ten', suit: 'diamonds' },
+        { rank:'nine', suit: 'clubs' },
+        { rank:'eight', suit: 'hearts' },
+        { rank:'seven', suit: 'diamonds' },
+        { rank:'six ', suit: 'club' }
+      ];
+
+2. full house
+
+var hand = [
+        { rank:'six', suit: 'diamonds' },
+        { rank:'six', suit: 'spades' },
+        { rank:'six', suit: 'hearts' },
+        { rank:'king', suit: 'hearts' },
+        { rank:'king ', suit: 'club' }
+      ];
+
+3. royal flush
+
+var hand = [
+        { rank:'ace', suit: 'diamonds' },
+        { rank:'king', suit: 'diamonds' },
+        { rank:'queen', suit: 'diamonds' },
+        { rank:'jack', suit: 'diamonds' },
+        { rank:'ten ', suit: 'diamonds' }
+      ];
+
+
+
+4. two pair
+
+var hand = [
+        { rank:'jack', suit: 'diamonds' },
+        { rank:'jack', suit: 'hearts' },
+        { rank:'three', suit: 'diamonds' },
+        { rank:'three', suit: 'spades' },
+        { rank:'two ', suit: 'club' }
+      ];
+
+5. three of a kind
+
+var hand = [
+        { rank:'queen', suit: 'diamonds' },
+        { rank:'queen', suit: 'spades' },
+        { rank:'queen', suit: 'hearts' },
+        { rank:'nine', suit: 'hearts' },
+        { rank:'two ', suit: 'spades' }
+      ];
+
+6. flush
+
+var hand = [
+        { rank:'jack', suit: 'diamonds' },
+        { rank:'nine', suit: 'diamonds' },
+        { rank:'eight', suit: 'diamonds' },
+        { rank:'four', suit: 'diamonds' },
+        { rank:'three ', suit: 'diamonds' }
+      ];
+
+7. four of a kind
+
+var hand = [
+        { rank:'five', suit: 'diamonds' },
+        { rank:'five', suit: 'hearts' },
+        { rank:'five', suit: 'spades' },
+        { rank:'five', suit: 'clubs' },
+        { rank:'three ', suit: 'diamonds' }
+      ];
+
+8. straight flush
+
+var hand = [
+        { rank:'jack', suit: 'diamonds' },
+        { rank:'ten', suit: 'diamonds' },
+        { rank:'nine', suit: 'diamonds' },
+        { rank:'eight', suit: 'diamonds' },
+        { rank:'seven ', suit: 'diamonds' }
+      ];
+
+
+
+
+
+
+
